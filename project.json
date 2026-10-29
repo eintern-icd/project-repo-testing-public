@@ -1,0 +1,12 @@
+{
+  "userId": "u_4886111579d6765a",
+  "projectId": "project-repo-testing-public",
+  "name": "Project repo testing public",
+  "board": {
+    "fqbn": "esp32:esp32:esp32s3"
+  },
+  "selections": null,
+  "serial": null,
+  "createdAt": "2026-10-29T11:31:25.607Z",
+  "updatedAt": "2026-10-29T11:31:25.607Z"
+}
