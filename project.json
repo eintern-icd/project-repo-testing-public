@@ -1,12 +1,35 @@
 {
-  "userId": "u_4886111579d6765a",
-  "projectId": "project-repo-testing-public",
-  "name": "Project repo testing public",
-  "board": {
-    "fqbn": "esp32:esp32:esp32s3"
+  "schemaVersion": 2,
+  "name": "Project repo testing",
+  "target": {
+    "framework": "arduino",
+    "board": "esp32:esp32:esp32s3",
+    "options": {
+      "CDCOnBoot": "default",
+      "CPUFreq": "240",
+      "DebugLevel": "none",
+      "DFUOnBoot": "default",
+      "EraseFlash": "none",
+      "EventsCore": "1",
+      "FlashMode": "qio",
+      "FlashSize": "4M",
+      "JTAGAdapter": "default",
+      "LoopCore": "1",
+      "MSCOnBoot": "default",
+      "PartitionScheme": "default",
+      "PSRAM": "disabled",
+      "UploadMode": "default",
+      "UploadSpeed": "921600",
+      "USBMode": "hwcdc",
+      "ZigbeeMode": "default"
+    }
   },
-  "selections": null,
-  "serial": null,
+  "serial": {
+    "baudRate": 115200
+  },
+  "build": {
+    "properties": []
+  },
   "createdAt": "2026-10-29T11:31:25.607Z",
-  "updatedAt": "2026-10-29T11:31:25.607Z"
+  "updatedAt": "2026-11-02T09:58:43.881Z"
 }
